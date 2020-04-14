@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<title>TOOLTIP</title>
+</head>
+<body>
+	<div class="container">
+		<br>
+		<a href="#" title="rubina" data-toggle="tooltip" data-placement="top">RUBINA</a>
+		<a href="#" title="rubina" data-toggle="tooltip" data-placement="right">RUBINA</a>
+		<a href="#" title="rubina" data-toggle="tooltip" data-placement="bottom">RUBINA</a>
+		<a href="#" title="rubina" data-toggle="tooltip" data-placement="left">RUBINA</a>
+<br><br>
+		<a href="#" title="popover header" data-toggle="popover" data-content="I am the popover" data-trigger="hover" data-placement="top"> POPOVER EXAMPLE</a>
+		<a href="#" title="popover header" data-toggle="popover" data-content="I am the popover" data-trigger="hover" data-placement="right"> POPOVER EXAMPLE</a>
+		<a href="#" title="popover header" data-toggle="popover" data-content="I am the popover" data-trigger="hover" data-placement="bottom"> POPOVER EXAMPLE</a>
+		<a href="#" title="popover header" data-toggle="popover" data-content="I am the popover" data-trigger="hover" data-placement="left"> POPOVER EXAMPLE</a>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+
+		$(document).ready(function(){
+			$('[data-toggle="popover"]').popover();
+		})
+	</script>
+</body>
+</html>

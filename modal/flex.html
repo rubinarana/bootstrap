@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<title>flex</title>
+</head>
+<body>
+	<div class="container">
+		<div class="m-5">
+			<div class="d-flex bg-dark">
+				<div class="bg-success text-white p-2 order-3">DIV 1</div>
+				<div class="bg-info text-white p-2 order-1">DIV 2</div>
+				<div class="bg-danger text-white p-2 order-2">DIV 3</div>
+			</div>
+		<br>
+		<div class="d-flex justify-content-center bg-dark"> 	<!--between center start, endd , around-->
+				<div class="bg-success text-white p-2">DIV 1</div>
+				<div class="bg-info text-white p-2">DIV 2</div>
+				<div class="bg-danger text-white p-2">DIV 3</div>
+			</div>
+<br>
+			<div class="d-flex flex-row-reverse bg-dark">
+				<div class="bg-success text-white p-2">DIV 1</div>
+				<div class="bg-info text-white p-2">DIV 2</div>
+				<div class="bg-danger text-white p-2">DIV 3</div>
+			</div>
+		<br>
+
+		<div class="d-flex flex-column bg-dark">
+				<div class="bg-success text-white p-2">DIV 1</div>
+				<div class="bg-info text-white p-2">DIV 2</div>
+				<div class="bg-danger text-white p-2">DIV 3</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

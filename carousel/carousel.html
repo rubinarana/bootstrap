@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<title>slider</title>
+</head>
+<body>
+	<div class="container-fluid">
+
+		<div class="carousel slider" id="myslider" data-ride="carousel">
+
+			<div class="carousel-inner"> <!--picture inside this div carousel-inner to show pic.-->
+				<div class="carousel-item active">
+					<img src="white.png" alt="flower" class="img-fluid">
+					<div class="carousel-caption">
+						<h2>RUBINA RANA</h2>
+						<p>THANK YOU </p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="yellow.jpg" alt="dog" class="img-fluid">
+					<div class="carousel-caption">
+						<h2>RUBINA RANA</h2>
+						<p>THANK YOU </p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="winterflower.jpg" alt="painting" class="img-fluid">
+					<div class="carousel-caption">
+						<h2>RUBINA RANA</h2>
+						<p>THANK YOU </p>
+					</div>
+				</div>
+			</div>
+
+		<ul class="carousel-indicators">	<!--for indicator-->
+			<li data-target="#myslider" data-slide-to="0" class="active"></li>
+			<li data-target="#myslider" data-slide-to="1" ></li>
+			<li data-target="#myslider" data-slide-to="2" ></li>
+		</ul>	
+
+				<!-- Left and right controls -->
+		  <a href="#myslider" data-slide="prev"  class="carousel-control-prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a href="#myslider" data-slide="next" class="carousel-control-next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+	</div>
+</div>
+</body>
+</html>
